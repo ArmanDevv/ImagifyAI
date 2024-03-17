@@ -29,7 +29,7 @@ const MobileNav = () => {
         </SheetTrigger>
         <SheetContent className='sheet-content sm:w-64'>
           <>
-          <Image src="/assets/logo-text.svg" width={152} height={23} alt='logo'/>
+          <Image src="/assets/.svg" width={152} height={23} alt='logo'/>
           <ul className="header-nav_elements">
               {navLinks.map((link)=>{
                 const isActive  = link.route === pathname
